@@ -1,0 +1,156 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.box {
+    width: 100px;
+    height: 100px;
+}
+.logo{
+    margin-right: 69px;
+}
+.header {
+    padding-top: 57px;
+    background: url('../img/header-bg.png') no-repeat center top / cover;
+}
+header a {
+    color: white;
+}
+.menu {
+    display: flex;
+}
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.1em; ;
+}
+.menu li {
+    margin-right: 40px;
+}
+
+.tel {
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: auto;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+.offer{
+    padding-top: 216px;
+    padding-bottom: 322px;
+}
+.btn {
+font-family: 'Anton';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+text-decoration: none;
+
+color: #FFFFFF;
+}
+
+.offer p{
+font-family: 'Anton';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 45px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.offer h1 {
+font-family: 'Anton';
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 151px;
+text-transform: uppercase;
+color: #FFFFFF;
+
+}
+.paragraph { 
+    display: flex; 
+    justify-content: space-between; 
+   } 
+    
+   .paragraph p { 
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400; 
+    text-align: justify; 
+    line-height: 1.62em; 
+   } 
+    
+   .first, .second { 
+    width: 567px; 
+    color: black;
+    padding-top: 58px;
+   } 
+    
+   .img { 
+    margin-top: 67px; 
+    display: flex; 
+    justify-content: space-between; 
+   } 
+    
+   
+    
+   .text { 
+    font-size: 15px; 
+    font-family: 'Open Sans', sans-serif; 
+    display: flex; 
+    padding: 114px 0 
+   } 
+    
+   .text p { 
+    margin-right: 67px; 
+   }
+   .container h2{
+       font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    text-transform: uppercase;
+    padding-top: 113px;
+    color: #000000;
+
+   }
+   .first h3{
+       letter-spacing: 0.1em;
+       text-size: 30px;
+       
+   }
+
+.second h3{
+    text-size: 30px;
+    letter-spacing: 0.1em;
+}
+.text p{
+    color: #000000;
+}
